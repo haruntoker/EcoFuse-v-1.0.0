@@ -3,6 +3,16 @@ import introImg from "../assets/wind-turbines.png";
 export default function Introduction() {
   return (
     <section className="bg-white dark:bg-gray-900">
+      <div className="mt-6 text-center relative ml-5 mr-5 flex justify-between items-center">
+        <span className="text-md tracking-widest font-normal whitespace-nowrap dark:text-white">
+          Introduction
+        </span>
+        <span className="text-md tracking-widest font-normal whitespace-nowrap dark:text-white">
+          2024
+        </span>
+      </div>
+
+      <hr class="my-6 border-gray-600 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="max-w-4xl text-start md:mt-32 md:ml-14 px-4">
         <h1 className="md:text-6xl font-bold tracking-wide dark:text-slate-200 text-slate-900 text-4xl">
           Promoting new energy technologies and solutions.
@@ -82,7 +92,11 @@ export default function Introduction() {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img className="rounded-xl mx-8 shadow-2xl shadow-sky-600" src="https://img.freepik.com/free-photo/wind-turbine-shore-lake_1268-27615.jpg?t=st=1720118478~exp=1720122078~hmac=7aaa11b00601c678101f45d4f41965336730e1f5024060d3feef96e91e59145d&w=2000" alt="mockup"/>
+          <img
+            className="rounded-xl mx-8 shadow-2xl shadow-sky-600"
+            src="https://img.freepik.com/free-photo/wind-turbine-shore-lake_1268-27615.jpg?t=st=1720118478~exp=1720122078~hmac=7aaa11b00601c678101f45d4f41965336730e1f5024060d3feef96e91e59145d&w=2000"
+            alt="mockup"
+          />
         </div>
       </div>
     </section>
