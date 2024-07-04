@@ -20,7 +20,7 @@ export default function Navbar() {
                 className="h-12 "
                 alt="Logo"
               />
-              <span className="self-center dark:text-white text-bold text-3xl font-normal whitespace-nowrap mt-2 uppercase">
+              <span className="self-center dark:text-slate-300 text-bold text-3xl font-normal whitespace-nowrap mt-2 uppercase">
                 Eco Fuse
               </span>
             </a>
@@ -54,7 +54,7 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#"
-                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black 0 md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black  md:p-0 dark:text-slate-300 md:dark:hover:bg-transparent"
                     aria-current="page"
                   >
                     Home
@@ -63,7 +63,7 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#"
-                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black  0 md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black  md:p-0 dark:text-slate-300 md:dark:hover:bg-transparent"
                   >
                     Green Energy 
                   </a>
@@ -71,7 +71,7 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#"
-                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black   md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black  md:p-0 dark:text-slate-300 md:dark:hover:bg-transparent"
                   >
                     Case Study
                   </a>
@@ -79,7 +79,7 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#"
-                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black   md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black  md:p-0 dark:text-slate-300 md:dark:hover:bg-transparent"
                   >
                     Resources
                   </a>
