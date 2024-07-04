@@ -9,7 +9,7 @@ function App() {
     <Flowbite>
       <div className="min-h-screen">
        
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
         
       </div>

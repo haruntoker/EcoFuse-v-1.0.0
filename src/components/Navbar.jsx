@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DarkMode from "./DarkMode";
-import Logo from '../assets/react.svg'
+import Logo from '../assets/logo.svg'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,17 +11,17 @@ export default function Navbar() {
 
   return (
     <section id="section">
-      <div className="bg-gray-200 border-gray-200 dark:bg-gray-900 shadow-xl ">
+      <div className="absolute top-0 left-0 right-0 z-10 bg-transparent backdrop-filter backdrop-blur-md">
         <nav className="">
           <div className="max-w-screen-4xl text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
                 src={Logo}
-                className="h-12"
+                className="h-12 "
                 alt="Logo"
               />
               <span className="self-center dark:text-white text-bold text-3xl font-semibold whitespace-nowrap mt-2">
-                Name here
+                Eco Fuse
               </span>
             </a>
             <button
@@ -50,7 +50,7 @@ export default function Navbar() {
               </svg>
             </button>
             <div className={`w-full md:block md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id="navbar-default tracking-wider">
-              <ul className="font-small flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray-200 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <ul className="font-small flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
                 <li>
                   <a
                     href="#"
