@@ -16,7 +16,7 @@ export default function Hero() {
       >
         <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
           <div className="text-center">
-            <h1 className="text-6xl font-semibold text-white lg:text-9xl">
+            <h1 className="text-6xl font-semibold text-white lg:text-9xl dark:text-slate-300">
             FUTURE — SOLUTION
             </h1>
            
