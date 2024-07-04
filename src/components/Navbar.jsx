@@ -13,7 +13,7 @@ export default function Navbar() {
     <section id="section">
       <div className="absolute top-0 left-0 right-0 z-10 bg-transparent backdrop-filter backdrop-blur-md">
         <nav className="">
-          <div className="max-w-screen-4xl text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
+          <div className="max-w-screen text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
                 src={Logo}
