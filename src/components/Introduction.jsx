@@ -12,7 +12,7 @@ export default function Introduction() {
         <div className="lg:col-span-7 flex flex-col gap-8 mb-6 lg:mb-16 justify-center">
           <div className="grid gap-8 md:grid-cols-2 md:gap-y-28">
             {/* Box 1 */}
-            <div className="flex items-center bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -29,7 +29,7 @@ export default function Introduction() {
               </div>
             </div>
             {/* Box 2 */}
-            <div className="flex items-center bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -46,7 +46,7 @@ export default function Introduction() {
               </div>
             </div>
             {/* Box 3 */}
-            <div className="flex items-center bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -63,7 +63,7 @@ export default function Introduction() {
               </div>
             </div>
             {/* Box 4 */}
-            <div className="flex items-center bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg  dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -82,7 +82,7 @@ export default function Introduction() {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img className="rounded-xl mx-8" src="https://img.freepik.com/free-photo/wind-turbine-shore-lake_1268-27615.jpg?t=st=1720118478~exp=1720122078~hmac=7aaa11b00601c678101f45d4f41965336730e1f5024060d3feef96e91e59145d&w=2000" alt="mockup"/>
+          <img className="rounded-xl mx-8 shadow-2xl shadow-sky-600" src="https://img.freepik.com/free-photo/wind-turbine-shore-lake_1268-27615.jpg?t=st=1720118478~exp=1720122078~hmac=7aaa11b00601c678101f45d4f41965336730e1f5024060d3feef96e91e59145d&w=2000" alt="mockup"/>
         </div>
       </div>
     </section>
