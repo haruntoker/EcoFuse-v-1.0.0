@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <section id="section">
-      <div className="absolute top-0 left-0 right-0 z-10 bg-transparent backdrop-filter backdrop-blur-md">
+      <div className="absolute top-0 left-6 right-6 z-10 bg-transparent backdrop-filter backdrop-blur-md items-center justify-between">
         <nav className="">
           <div className="max-w-screen text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">

@@ -1,0 +1,94 @@
+import introImg from "../assets/wind-turbines.png";
+
+export default function Introduction() {
+  return (
+    <section className="bg-white dark:bg-gray-900">
+      <div class="max-w-4xl text-start md:mt-32 md:ml-14">
+        <h1 class="md:text-6xl font-bold tracking-wide dark:text-slate-200 text-slate-900 text-4xl">
+          Promoting new energy technologies and solutions.
+        </h1>
+      </div>
+      <div className="grid max-w-screen px-4 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12 md:m-16">
+        <div className="mr-auto place-self-center lg:col-span-7 ">
+          <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 md:gap-y-32">
+            {/* box 1 */}
+            <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-600 dark:border-gray-700 md:gap-x-36 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300 ">
+              <a href="#">
+                <img
+                  className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
+                  src="https://cdn2.iconfinder.com/data/icons/energy-supply-1/68/solar_electricity_power_panel_renewable_energy-512.png"
+                />
+              </a>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Solar Energy</a>
+                </h3>
+                <span className="text-gray-500 dark:text-gray-400 uppercase">
+                  [view details]
+                </span>
+              </div>
+            </div>
+
+               {/* box 2 */}
+               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-600 dark:border-gray-700 md:gap-x-36 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+              <a href="#">
+                <img
+                  className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
+                  src="https://cdn0.iconfinder.com/data/icons/ecology-445/68/84-512.png"
+                />
+              </a>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Hydro Energy</a>
+                </h3>
+                <span className="text-gray-500 dark:text-gray-400 uppercase">
+                  [view details]
+                </span>
+              </div>
+            </div>
+
+               {/* box 3 */}
+               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-600 dark:border-gray-700 md:gap-x-36 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+              <a href="#">
+                <img
+                  className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
+                  src="https://cdn4.iconfinder.com/data/icons/ecology-93/64/geothermal_energy-ecology_and_environment-power_plant-ecological-512.png"
+                />
+              </a>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Geothermal Energy</a>
+                </h3>
+                <span className="text-gray-500 dark:text-gray-400 uppercase">
+                  [view details]
+                </span>
+              </div>
+            </div>
+
+               {/* box 4 */}
+               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-600 dark:border-gray-700 md:gap-x-36 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+              <a href="#">
+                <img
+                  className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
+                  src="https://cdn2.iconfinder.com/data/icons/landscapes-15/85/wind_turbine_energy_power_sustainable_ecology_green-512.png"
+                />
+              </a>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Wind Energy</a>
+                </h3>
+                <span className="text-gray-500 dark:text-gray-400 uppercase">
+                  [view details]
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex max-h-full">
+          <img className="rounded-xl" src={introImg} alt="mockup" />
+        </div>
+      </div>
+    </section>
+  );
+}

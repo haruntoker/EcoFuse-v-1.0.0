@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flowbite} from 'flowbite-react';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Intro from './components/Introduction'
 
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
     <Flowbite>
       <div className="min-h-screen">
        
-        {/* <Navbar /> */}
+       
         <Hero />
+        <Intro />
         
       </div>
     </Flowbite>
