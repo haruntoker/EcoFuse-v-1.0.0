@@ -12,7 +12,7 @@ export default function Introduction() {
         <div className="lg:col-span-7 flex flex-col gap-8 mb-6 lg:mb-16 justify-center">
           <div className="grid gap-8 md:grid-cols-2 md:gap-y-28">
             {/* Box 1 */}
-            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg  dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -29,7 +29,7 @@ export default function Introduction() {
               </div>
             </div>
             {/* Box 2 */}
-            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg  dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -46,7 +46,7 @@ export default function Introduction() {
               </div>
             </div>
             {/* Box 3 */}
-            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
+            <div className="flex items-center shadow-lg shadow-sky-400 bg-gray-50 rounded-lg  dark:bg-gray-600 dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300">
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
@@ -67,7 +67,7 @@ export default function Introduction() {
               <a href="#">
                 <img
                   className="w-16 rounded-lg sm:rounded-none sm:rounded-l-lg md:ml-8"
-                  src="https://cdn2.iconfinder.com/data/icons/landscapes-15/85/wind_turbine_energy_power_sustainable_ecology_green-512.png"
+                  src="https://cdn4.iconfinder.com/data/icons/smart-technology-10/70/Smart_Technology-08-512.png"
                 />
               </a>
               <div className="p-5">
