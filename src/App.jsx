@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Intro from './components/Introduction'
 import Benefits from './components/Benefits'
 import Portfolio from './components/Portfolio'
+import Blog from './components/Blog';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Intro />
         <Benefits />
         <Portfolio />
+        <Blog />
         
       </div>
     </Flowbite>
