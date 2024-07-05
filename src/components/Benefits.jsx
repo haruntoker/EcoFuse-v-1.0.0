@@ -47,7 +47,7 @@ export default function Benefits() {
                 <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Discover how cutting-edge sustainable energy technologies are revolutionizing the way we power our world, influencing industries, and shaping the future of our planet for generations to come.</p>
                 <div className="flex justify-between items-center">
                     <div className="flex items-center space-x-4">
-                        <img className="w-7 h-7 rounded-full" src="https://img.freepik.com/free-photo/portrait-handsome-bearded-man_23-2149880047.jpg?size=626&ext=jpg&uid=R152317246&ga=GA1.1.699507890.1718033032&semt=ais_user-customized" alt="Jese Leos avatar" />
+                        <img className="w-7 h-7 rounded-full" src="https://img.freepik.com/free-photo/confident-sad-mature-man-with-gray-hair-beard-generated-by-artificial-intelligence_25030-64885.jpg?t=st=1720165456~exp=1720169056~hmac=76f4b779db6e2746176ee37affa1e563b7fb11ad1c70d402bfbe1d9702148274&w=2000" alt="Jese Leos avatar" />
                         <span className="font-medium dark:text-white">
                         Benjamin Mitchell
                         </span>
@@ -81,7 +81,57 @@ export default function Benefits() {
                         <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </a>
                 </div>
-            </article>                  
+            </article>     
+
+              {/* box 3 */}
+            <article className="p-6 bg-white  border border-gray-200 shadow-md dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
+                <div className="flex justify-between items-center mb-5 text-gray-500">
+                    <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                        <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                        Article
+                    </span>
+                    <span className="text-sm">5 days ago</span>
+                </div>
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Harnessing the Power of Hydro Energy</a></h2>
+                <p className="mb-5 font-light text-gray-500 dark:text-gray-400"> Hydro energy generates clean electricity by harnessing flowing water, crucial for sustainable energy solutions due to its renewable nature and minimal environmental impact.</p>
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center space-x-4">
+                        <img className="w-7 h-7 rounded-full" src="https://img.freepik.com/free-photo/confident-business-woman-portrait-smiling-face_53876-139590.jpg?w=2000&t=st=1720165148~exp=1720165748~hmac=45f1493bd4de4e77140abb5433072b68ab377c758c0140aa81402a11d50103c1" alt="Bonnie Green avatar" />
+                        <span className="font-medium dark:text-white">
+                        Emily Thompson
+                        </span>
+                    </div>
+                    <a href="#" className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                        Read more
+                        <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </article>  
+
+              {/* box 4 */}
+            <article className="p-6 bg-white  border border-gray-200 shadow-md dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
+                <div className="flex justify-between items-center mb-5 text-gray-500">
+                    <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                        <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                        Article
+                    </span>
+                    <span className="text-sm">13 days ago</span>
+                </div>
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Harnessing the Power of Wind Energy</a></h2>
+                <p className="mb-5 font-light text-gray-500 dark:text-gray-400"> Wind energy harnesses wind turbines to generate clean electricity, a sustainable renewable resource contributing significantly to global energy needs while minimizing environmental impact. </p>
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center space-x-4">
+                        <img className="w-7 h-7 rounded-full" src="https://img.freepik.com/free-photo/confident-young-man-with-beard-glasses-smiling-camera-generated-by-artificial-intelligence_188544-126015.jpg?t=st=1720165303~exp=1720168903~hmac=92b472da1d3d0d313edee202131078b417859c223ae5386e0dc26f2d4d5091e4&w=2000" alt="Bonnie Green avatar" />
+                        <span className="font-medium dark:text-white">
+                        Alexander Johnson
+                        </span>
+                    </div>
+                    <a href="#" className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                        Read more
+                        <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </article>              
         </div>  
     </div>
   </section>
