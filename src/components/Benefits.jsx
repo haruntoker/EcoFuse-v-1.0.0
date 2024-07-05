@@ -35,7 +35,7 @@ export default function Benefits() {
       
         <div className="grid gap-8 lg:grid-cols-2">
             {/* box 1 */}
-            <article className="p-6 bg-white  border border-gray-200 shadow-md dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
+            <article className="p-6 bg-white  border border-gray-200  dark:bg-gray-800  rounded-lg dark:hover:shadow-sky-400 shadow-xl dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
                 <div className="flex justify-between items-center mb-5 text-gray-500">
                     <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                         <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" ><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
@@ -59,7 +59,7 @@ export default function Benefits() {
                 </div>
             </article> 
             {/* box 2 */}
-            <article className="p-6 bg-white  border border-gray-200 shadow-md dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
+            <article className="p-6 bg-white  border border-gray-200 dark:hover:shadow-sky-400 shadow-xl dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
                 <div className="flex justify-between items-center mb-5 text-gray-500">
                     <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                         <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
@@ -84,7 +84,7 @@ export default function Benefits() {
             </article>     
 
               {/* box 3 */}
-            <article className="p-6 bg-white  border border-gray-200 shadow-md dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
+            <article className="p-6 bg-white  border border-gray-200 dark:hover:shadow-sky-400 shadow-xl dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
                 <div className="flex justify-between items-center mb-5 text-gray-500">
                     <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                         <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
@@ -109,7 +109,7 @@ export default function Benefits() {
             </article>  
 
               {/* box 4 */}
-            <article className="p-6 bg-white  border border-gray-200 shadow-md dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
+            <article className="p-6 bg-white  border border-gray-200 dark:hover:shadow-sky-400 shadow-xl dark:bg-gray-800  rounded-lg  dark:border-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-sky-300 duration-300">
                 <div className="flex justify-between items-center mb-5 text-gray-500">
                     <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                         <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
