@@ -12,7 +12,7 @@ export default function Introduction() {
         </span>
       </div>
 
-      <hr class="my-6 border-gray-600 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr className="my-6 border-gray-600 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="max-w-4xl text-start md:mt-32 md:ml-14 px-4">
         <h1 className="md:text-6xl font-bold tracking-wide dark:text-slate-200 text-slate-900 text-4xl">
           Promoting new energy technologies and solutions.

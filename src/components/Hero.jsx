@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 export default function Hero() {
 
   return (
-    <section className='overflow-hidden'>
+    <section className='overflow-hidden'> 
       <Navbar />
       <div      
         className="relative w-full bg-center bg-cover bg-fixed h-screen"
