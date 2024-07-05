@@ -21,11 +21,11 @@ export default function Benefits() {
         <h1 className="md:text-2xl font-bold tracking-widest dark:text-slate-200 text-slate-600 ">
         Advancements in Sustainable Energy: Innovations and Impacts
         </h1>
-        <p className='tracking-widest dark:text-slate-200 text-slate-600 mt-16'> Advancing sustainable energy through innovation, minimizing environmental impact for a greener future.</p>
+        <p className='tracking-widest dark:text-slate-200 text-slate-600 mt-16 font-medium leading-loose'> Advancing sustainable energy through innovation, minimizing environmental impact for a greener future.</p>
       </div>
 {/* header 2 */}
       <div className="max-w-4xl  items-end  md:ml-14 px-4">
-        <h1 className="md:text-6xl font-bold tracking-wide dark:text-slate-200 text-slate-900 text-4xl">
+        <h1 className="md:text-6xl font-bold tracking-wide dark:text-slate-200 text-slate-900 text-4xl leading-loose underline decoration-1 underline-offset-8">
         Sustainable and thriving future for our planet.
         </h1>
       </div>
