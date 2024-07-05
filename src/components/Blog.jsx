@@ -34,9 +34,9 @@ export default function Blog() {
                 alt=""
               />
 
-              <div className="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+              <div className="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 rounded-tr-lg">
                 <img
-                  className="object-cover object-center w-10 h-10 rounded-full"
+                  className="object-cover object-center w-10 h-10 rounded-full  "
                   src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                   alt=""
                 />
@@ -52,13 +52,13 @@ export default function Blog() {
               </div>
             </div>
 
-            <h1 className="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+            <h1 className="mt-6 text-xl font-semibold text-gray-800 dark:text-white md:ml-2">
               Promoting Energy Equity in 2023: Initiatives and Outcomes
             </h1>
 
             <hr className="w-32 my-6 text-blue-500" />
 
-            <p className="text-sm text-gray-500 dark:text-gray-400">
+            <p className="text-sm text-gray-500 dark:text-gray-400 md:ml-2">
               This year has been transformative for Clean Energy Group and our
               partners in promoting energy justice and advancing equitable clean
               energy solutions for communities.
@@ -66,7 +66,7 @@ export default function Blog() {
 
             <a
               href="#"
-              className="inline-flex items-center font-medium text-slate-800 dark:text-slate-500 hover:underline mt-4 dark:ml-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 mb-2"
+              className="inline-flex items-center font-medium text-slate-800 dark:text-slate-500 hover:underline mt-4 md:ml-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 mb-2"
             >
               Read more
               <svg
@@ -110,19 +110,19 @@ export default function Blog() {
               </div>
             </div>
 
-            <h1 className="mt-6 text-xl font-semibold text-gray-800 dark:text-white line-clamp-1">
+            <h1 className="mt-6 text-xl font-semibold text-gray-800 dark:text-white line-clamp-1 md:ml-2">
             The Solar+Storage market is thriving more than ever, yet many communities still require support to fully access and benefit from these technologies.
             </h1>
 
             <hr className="w-32 my-6 text-blue-500" />
 
-            <p className="text-sm text-gray-500 dark:text-gray-400">
+            <p className="text-sm text-gray-500 dark:text-gray-400 md:ml-2">
             Demand for early-stage technical assistance will rise as communities face growing vulnerabilities from climate disasters and an aging power grid.
             </p>
 
             <a
               href="#"
-              className="inline-flex items-center font-medium text-slate-800 dark:text-slate-500 hover:underline mt-4 dark:ml-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
+              className="inline-flex items-center font-medium text-slate-800 dark:text-slate-500 hover:underline mt-4 md:ml-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
             >
               Read more
               <svg
@@ -147,9 +147,9 @@ export default function Blog() {
                 alt=""
               />
 
-              <div className="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+              <div className="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 rounded-tr-lg ">
                 <img
-                  className="object-cover object-center w-10 h-10 rounded-full"
+                  className="object-cover object-center w-10 h-10 rounded-full "
                   src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                   alt=""
                 />
@@ -158,26 +158,26 @@ export default function Blog() {
                   <h1 className="text-sm text-gray-700 dark:text-gray-200">
                   Sarah Chang 
                   </h1>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500 dark:text-gray-400 md:ml-2">
                   Renewable Energy Policy Analyst
                   </p>
                 </div>
               </div>
             </div>
 
-            <h1 className="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+            <h1 className="mt-6 text-xl font-semibold text-gray-800 dark:text-white md:ml-2">
             Flaws in the EPA Power Plant Rule
             </h1>
 
             <hr className="w-32 my-6 text-blue-500" />
 
-            <p className="text-sm text-gray-500 dark:text-gray-400">
+            <p className="text-sm text-gray-500 dark:text-gray-400 md:ml-2">
             New Study Highlights Benefits of Renewable Energy Investments for Economic Growth and Environmental Sustainability in Emerging Markets.
             </p>
 
             <a
               href="#"
-              className="inline-flex items-center font-medium text-slate-800 dark:text-slate-500 hover:underline mt-4 dark:ml-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
+              className="inline-flex items-center font-medium text-slate-800 dark:text-slate-500 hover:underline mt-4 md:ml-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
             >
               Read more
               <svg
