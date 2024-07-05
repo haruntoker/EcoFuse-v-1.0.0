@@ -60,7 +60,7 @@ export default function Portfolio() {
               backgroundImage: `url(${smartGrid})`
             }}>
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <h2 className="mt-4 text-xl font-semibold text-white capitalize">Smart Grid Technology</h2>
+              <h2 className="mt-4 text-xl font-semibold text-white capitalize">Smart House Technology</h2>
               <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase">Germany</p>
             </div>
           </div>
