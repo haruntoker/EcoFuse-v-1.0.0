@@ -1,4 +1,4 @@
-import introImg from "../assets/wind-turbines.png";
+
 
 export default function Introduction() {
   return (

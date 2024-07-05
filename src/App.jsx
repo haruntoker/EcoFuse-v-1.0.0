@@ -3,6 +3,7 @@ import { Flowbite} from 'flowbite-react';
 import Hero from './components/Hero';
 import Intro from './components/Introduction'
 import Benefits from './components/Benefits'
+import Portfolio from './components/Portfolio'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Intro />
         <Benefits />
+        <Portfolio />
         
       </div>
     </Flowbite>
